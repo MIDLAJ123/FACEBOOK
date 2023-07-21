@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .body{
+    background-size: 300px 100px;
+    background: rgb(3, 105, 247);
+    background-color: #4267b2;
+    background: center;
+}
+.head{
+    font-size: 40px;
+    top: 60px;
+    margin-left: 100px;
+    color: #e1e8f3;
+    background-color: #4267b2;
+    position: sticky;
+}
+.text{
+    width: 100px;
+    position: absolute;
+    left: 850px;
+    top: 15px;
+    color: #ffffff;
+}
+.text1{
+    position: absolute;
+    left: 850px;
+    top: 40px;
+    border: 1px solid;
+}
+.text2{
+    position: absolute;
+    left: 1035px;
+    top: 15px;
+    color: #ffffff;
+}
+.text3{
+    position: absolute;
+    left: 1035px;
+    top: 40px;
+    border: 1px solid;
+}
+ 
+.A{
+    background-color: #e7e9eb;
+    position: absolute;
+    margin-left: 1211px;
+    top: 39px;
+    color: #080808;
+}
+.B{
+    position: absolute;
+    margin-left: 1036px;
+    top: 63px;
+    font-size: 12px;
+    color: #839eca;
+}
+.photo1{
+    width: 60%;
+    position: absolute;
+    height: 44%;
+    top: 300px;
+    right: 557px;
+}
+.c{
+    color: #f8f9fb;
+    background-color: #f8f9fb;
+}
+.birthmonth{
+    position: absolute;
+    left: 850px;
+    top: 330px;
+}
+.Birthday{
+    position: absolute;
+    left: 900px;
+    top: 330px;
+
+}
+.Year{
+    position: absolute;
+    left: 993px;
+    top: 330px;
+
+}
+.pr{
+    position: absolute;
+    left: 850px;
+    top: 450px;
+    font-size: 12px;
+    font-style:unset;
+
+}
+ .button{
+    position: absolute;
+    background:#659e4f;
+    color: #dbf6cf;
+    border-radius: 5px;
+    box-sizing:content-box;
+    border: #89af7c;
+    width: 150px;
+    height: 30px;
+    
+ }
+ .link{
+    font-size: 12px;
+    position: absolute;
+    left: 850px;
+    top: 591px;
+ }
+ .pra{
+    font-size: 13px;
+    position: absolute;
+    left: 919px;
+    top: 592px;
+ }
+ .text10{
+    line-height: 1.5;
+    color: #0b365d;
+    margin-left: 180px;
+    top: 34px;
+    position: relative;
+    font-size: 27px;
+ }
+ .button:hover{
+    opacity: 40%;
+ }
+ 

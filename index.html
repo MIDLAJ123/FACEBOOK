@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.5/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>facebook</title>
+    <link rel="icon" href="Photo/Facebook_icon.svg.png">
+
+</head>
+ 
+<body style="background: linear-gradient(white,#d3d8e8); width: 100%; height: 100vh;">
+    <fieldset style="background-color: #4267b2; width: 1374px; right: 12px; position: relative; height: 76px;">  
+    <h1 class="head">facebook </h1>
+</fieldset>
+    <label for="" class="text">Email or phone</label>
+    <input type="email" class="text1" id="email" required>
+    <input type="text" class="text1" style="display: none;" id="error" placeholder="Enter minimum 6 letters" >
+    <br>
+    <label for="" class="text2">Password</label>
+    <input type="text" class="text3" id="psd">
+    <input type="text" class="text3" style="display: none;" id="error2" placeholder="Enter minimum 8 letters">
+    <h6 class="head6"><button type="button"  class="A" id="sbmt">Log <nbsp>in</nbsp>  </button></h6>
+    <h6 class="B">Forgotten account?</h6>
+
+        <h4 style="position: absolute; left: 847px;top: 135px; font-size: 42px; color: rgb(12, 11, 12);">Sign up</h4>
+        <h3 style="padding-left: 850px; font-size: 17px;position: absolute;top: 197px;">It's quick and easy.</h3>
+        <h6 style="font-size: 14px; position: absolute;left: 850px;top: 290px; ;">Birthday</h6>
+        <h6 style="font-size: 13px; position: absolute;left: 850px;top: 364px; line-height: 25px ;">Gender <br>
+            
+            <input type="radio" name="Gender">
+            <label for="">male</label>
+            <input type="radio" name="Gender">
+            <label for="">female</label> </h6>
+        
+
+        <p class="pr">By clicking sign Up,you agree to our <a href="#"> terms,Data policy </a> and <br>
+        <a href="#">  Cookie policy </a> .You may receive SMS notifications from us and <br>
+        can opt at any time. <br><br><br><br><br>
+        
+         <button class="button" type="button" id="btns">Create an account</button><br><br><br></p>
+
+         <a href="" class="link">Create a page</a> 
+         <p class="pra">for a celebrity,band or business</p>
+       
+         
+
+            <select name="Month" id=""class="birthmonth">
+                <option value="">Day</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+                
+            </select>
+            <br>
+            <select name="Month" id=""class="Birthday">
+                <option value="">Month</option>
+                <option value="">January</option>
+                <option value="">Fabruary</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">Agust</option>
+                <option value="">September</option>
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+            </select>
+            <select name="Year" id=""class="Year">
+                <option value="Year">Year</option>
+                <option value="">1994</option>
+                <option value="">1995</option>
+                <option value="">1996</option>
+                <option value="">1997</option>
+                <option value="">1998</option>
+                <option value="">1999</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+            </select>
+
+            <img src="Photo/fb-home.png" alt="Photo" class="photo1">
+            <h2 class="text10">Facebook helps you connect and share with the <br> people in your life</h2>
+
+
+<form action="">
+    <input type="text" placeholder="First  name" style="position: absolute; left: 850px;top: 232px;" id="first">
+    <input type="text" placeholder="Minimum 4 letters" style="position: absolute; left: 850px;top: 232px; display: none;" id="error3">
+    <br>
+    <input type="text" placeholder="Last name" style="position: absolute;left: 1035px; top: 232px;" id="last">
+    <input type="text" placeholder="Minimum 4 letters" style="position: absolute;left: 1035px; top: 232px; display: none;" id="error4">
+    <input type="text" placeholder="Email adress or phone number" aria-colspan="2" style="left: 850px;
+    position: absolute;
+    top: 260px;
+    width: 353px;" id="sec">
+    <input type="text" placeholder="Minimum 6 letters" style="left: 850px;
+    position: absolute;
+    top: 260px;
+    width: 353px; display: none;" id="error5">
+    <input type="text" placeholder="New Password" style="position: absolute;left: 850px; top: 286px; width: 353px; " id="thr">
+    <input type="text" placeholder="Minimum 8 letters" style="position: absolute;left: 850px; top: 286px; width: 353px; display: none;" id="error6">
+
+
+</form>
+</body>
+<script>
+       $(document).ready(function() {
+            $("#email").blur(function() {
+                let text = $(this).val();
+                if (text.length < 6) {
+                    $("#error").show();
+                } else {
+                    $("#error").hide();
+                }
+            });
+
+            $("#psd").blur(function() {
+                let num = $(this).val();
+                if (num.length < 8) {
+                    $("#error2").show();
+                } else {
+                    $("#error2").hide();
+                }
+            });
+
+            $("#sbmt").click(function() {
+                let email = $("#email").val();
+                let password = $("#psd").val();
+
+                if (email === "" || password === "" ) {
+                    $("#error").show();
+                    $("#error2").show();
+
+                } else {
+
+                        swal.fire({
+                        icon: 'success',
+                        title: 'Login successfully',
+                        html: 'Mail id: ' + email,
+                    });
+                }
+            });
+            $("#first").blur(function() {
+                let nm = $(this).val()
+                if(nm.length <4){
+                    $("#error3").show()
+                }
+                else{
+                    $("#error3").hide()
+                }
+            });
+            $("#last").blur(function() {
+                let sm = $(this).val()
+                if(sm.length <4){
+                    $("#error4").show()
+                }
+                else{
+                    $("#error4").hide()
+                }
+            });
+            $("#sec").blur(function() {
+                let gm = $(this).val()
+                if(gm.length <6){
+                    $("#error4").show()
+                }
+                else{
+                    $("#error4").hide()
+                }
+            });
+            $("#thr").blur(function() {
+                let km = $(this).val()
+                if(km.length <8){
+                    $("#error6").show()
+                }
+                else{
+                    $("#error6").hide()
+                }
+            });
+
+            $("#btns").click(function() {
+                let ft = $("#first").val();
+                let lt = $("#last").val();
+                let sd = $("#sec").val();
+                let td = $("#thr").val();
+
+                if (ft === "" || lt === "" || sd === "" || td === "") {
+                    $("#error3").show();
+                    $("#error4").show();
+                    $("#error5").show();
+                    $("#error6").show();
+                     
+                } else {
+                    swal.fire({
+                    icon: 'success',
+                    title: 'Submitted successfully',
+                    html: 'First name: ' + ft,
+            });
+
+                }
+            });
+
+        });
+</script>
+</html>
+ 
